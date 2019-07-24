@@ -7,3 +7,4 @@
 subdirs("gtest")
 subdirs("beginner_tutorials")
 subdirs("cwcw")
+subdirs("learning_tf")

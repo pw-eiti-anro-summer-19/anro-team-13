@@ -2,4 +2,4 @@
 source_root_dir = "/home/user_en/catkin_ws/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/opt/ros/melodic".split(';') if "/opt/ros/melodic" != "" else []
+underlay_workspaces = "/home/user_en/catkin_ws/devel;/opt/ros/melodic".split(';') if "/home/user_en/catkin_ws/devel;/opt/ros/melodic" != "" else []
