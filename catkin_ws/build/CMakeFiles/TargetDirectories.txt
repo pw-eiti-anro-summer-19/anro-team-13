@@ -74,3 +74,11 @@
 /home/user_en/catkin_ws/build/beginner_tutorials/CMakeFiles/test.dir
 /home/user_en/catkin_ws/build/beginner_tutorials/CMakeFiles/roscpp_generate_messages_cpp.dir
 /home/user_en/catkin_ws/build/beginner_tutorials/CMakeFiles/rebuild_cache.dir
+/home/user_en/catkin_ws/build/testbot_description/CMakeFiles/install/strip.dir
+/home/user_en/catkin_ws/build/testbot_description/CMakeFiles/install/local.dir
+/home/user_en/catkin_ws/build/testbot_description/CMakeFiles/test.dir
+/home/user_en/catkin_ws/build/testbot_description/CMakeFiles/list_install_components.dir
+/home/user_en/catkin_ws/build/testbot_description/CMakeFiles/parser.dir
+/home/user_en/catkin_ws/build/testbot_description/CMakeFiles/install.dir
+/home/user_en/catkin_ws/build/testbot_description/CMakeFiles/edit_cache.dir
+/home/user_en/catkin_ws/build/testbot_description/CMakeFiles/rebuild_cache.dir

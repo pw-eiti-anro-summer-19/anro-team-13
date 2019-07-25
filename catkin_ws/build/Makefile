@@ -700,6 +700,19 @@ roscpp_generate_messages_cpp/fast:
 	$(MAKE) -f beginner_tutorials/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make beginner_tutorials/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
+#=============================================================================
+# Target rules for targets named parser
+
+# Build rule for target.
+parser: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 parser
+.PHONY : parser
+
+# fast build rule for target.
+parser/fast:
+	$(MAKE) -f testbot_description/CMakeFiles/parser.dir/build.make testbot_description/CMakeFiles/parser.dir/build
+.PHONY : parser/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -754,6 +767,7 @@ help:
 	@echo "... add_two_ints_server"
 	@echo "... add_two_ints_client"
 	@echo "... roscpp_generate_messages_cpp"
+	@echo "... parser"
 .PHONY : help
 
 

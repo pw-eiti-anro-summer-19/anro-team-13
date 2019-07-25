@@ -1,2 +1,2 @@
-beginner_tutorials
+beginner_tutorials:testbot_description
 -DCATKIN_DEVEL_PREFIX=/home/user_en/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/user_en/catkin_ws/install -G Unix Makefiles
