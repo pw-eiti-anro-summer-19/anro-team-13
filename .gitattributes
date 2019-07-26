@@ -1,6 +1,6 @@
-*.pdf linguist-language=ROS
-*.txt linguist-language=ROS
-*.xml linguist-language=ROS
-*.urdf linguist-language=ROS
-*.cmake linguist-language=ROS
-Makefile linguist-language=ROS
+*.pdf linguist-language=Scala
+*.txt linguist-language=Scala
+*.xml linguist-language=Scala
+*.urdf linguist-language=Scala
+*.cmake linguist-language=Scala
+Makefile linguist-language=Scala
