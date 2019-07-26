@@ -1,6 +1,6 @@
-*.pdf linguist-language=Haskell
-*.txt linguist-language=Haskell
-*.xml linguist-language=Haskell
-*.urdf linguist-language=Haskell
-*.cmake linguist-language=Haskell
-Makefile linguist-language=Haskell
+*.pdf linguist-language=ROS
+*.txt linguist-language=ROS
+*.xml linguist-language=ROS
+*.urdf linguist-language=ROS
+*.cmake linguist-language=ROS
+Makefile linguist-language=ROS
