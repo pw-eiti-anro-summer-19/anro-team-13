@@ -2,7 +2,7 @@
 
 message(STATUS "beginner_tutorials: 1 messages, 1 services")
 
-set(MSG_I_FLAGS "-Ibeginner_tutorials:/home/user_en/catkin_ws/src/beginner_tutorials/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ibeginner_tutorials:/home/user_en/catkin_ws/src/beginner_tutorials/msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -245,9 +245,6 @@ if(gencpp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/be
     DESTINATION ${gencpp_INSTALL_DIR}
   )
 endif()
-if(TARGET std_msgs_generate_messages_cpp)
-  add_dependencies(beginner_tutorials_generate_messages_cpp std_msgs_generate_messages_cpp)
-endif()
 
 if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/beginner_tutorials)
   # install generated code
@@ -255,9 +252,6 @@ if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/be
     DIRECTORY ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/beginner_tutorials
     DESTINATION ${geneus_INSTALL_DIR}
   )
-endif()
-if(TARGET std_msgs_generate_messages_eus)
-  add_dependencies(beginner_tutorials_generate_messages_eus std_msgs_generate_messages_eus)
 endif()
 
 if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/beginner_tutorials)
@@ -267,9 +261,6 @@ if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/
     DESTINATION ${genlisp_INSTALL_DIR}
   )
 endif()
-if(TARGET std_msgs_generate_messages_lisp)
-  add_dependencies(beginner_tutorials_generate_messages_lisp std_msgs_generate_messages_lisp)
-endif()
 
 if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/beginner_tutorials)
   # install generated code
@@ -277,9 +268,6 @@ if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_D
     DIRECTORY ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/beginner_tutorials
     DESTINATION ${gennodejs_INSTALL_DIR}
   )
-endif()
-if(TARGET std_msgs_generate_messages_nodejs)
-  add_dependencies(beginner_tutorials_generate_messages_nodejs std_msgs_generate_messages_nodejs)
 endif()
 
 if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/beginner_tutorials)
@@ -289,7 +277,4 @@ if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/begi
     DIRECTORY ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/beginner_tutorials
     DESTINATION ${genpy_INSTALL_DIR}
   )
-endif()
-if(TARGET std_msgs_generate_messages_py)
-  add_dependencies(beginner_tutorials_generate_messages_py std_msgs_generate_messages_py)
 endif()

@@ -1,8 +1,0 @@
-prefix=/home/user_en/catkin_ws/devel
-
-Name: urdfdom_model
-Description: Description of urdfdom_model
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/user_en/catkin_ws/devel/lib 
-Requires: 

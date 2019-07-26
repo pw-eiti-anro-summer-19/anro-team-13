@@ -5,5 +5,8 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
+subdirs("smartcar_description/src/smartcar_description")
 subdirs("beginner_tutorials")
-subdirs("testbot_description")
+subdirs("cwcw")
+subdirs("myurdf")
+subdirs("learning_tf")

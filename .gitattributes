@@ -1,0 +1,4 @@
+*.pdf linguist-language=Haskell
+*.txt linguist-language=Haskell
+*.xml linguist-language=Haskell
+*.urdf linguist-language=Haskell
