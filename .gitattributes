@@ -1,4 +1,4 @@
-*.pdf linguist-language=Scala
+
 *.txt linguist-language=Scala
 *.xml linguist-language=Scala
 *.urdf linguist-language=Scala
