@@ -1,6 +1,6 @@
 
-*.txt linguist-language=Scala
-*.xml linguist-language=Scala
-*.urdf linguist-language=Scala
-*.cmake linguist-language=Scala
-Makefile linguist-language=Scala
+*.txt linguist-language=C++
+*.xml linguist-language=C++
+*.urdf linguist-language=C++
+*.cmake linguist-language=C++
+Makefile linguist-language=C++
