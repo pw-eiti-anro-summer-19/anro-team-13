@@ -1,8 +1,0 @@
-prefix=/home/user_en/catkin_ws/devel
-
-Name: cwcw
-Description: Description of cwcw
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/user_en/catkin_ws/devel/lib 
-Requires: 
